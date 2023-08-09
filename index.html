@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page-Gym</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+<style>
+body{
+        margin:0px;
+        padding:0px;
+        background: url(imgs/pexels-anush-gorak-1229356.jpg);      
+        background-size: cover;
+        font-family: 'Comic Neue', cursive;
+        
+}
+.left{
+    position: absolute;
+    display: inline-block;
+    left: 60px;
+    top: 23px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 0px;
+
+}
+.left img{
+    width: 72px;
+    filter: invert(100%);
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 29px auto;
+    color: aliceblue;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top:36px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    color: aliceblue;
+    padding: 34px 10px;
+    font-size: 19px;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    color:rgb(120, 167, 216);
+    text-decoration: none;
+}
+.btn{
+    background-color: black;
+    margin: 0px 9px;
+    color: aliceblue;
+    padding: 6px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor:pointer;
+    font-family: 'Comic Neue', cursive;
+}
+.btn:hover{
+    background-color: rgb(120, 167, 216);
+
+}
+.container{
+    border: 2px solid aliceblue;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 20%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: left;
+    display: block;
+    width: 350px;
+    padding: 1px;
+    font-size: 18px;
+    margin: 11px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.container h1{
+     text-align: center;
+    color: rgb(120, 167, 216);
+    font-weight: 700;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.container1 {
+    padding: 10px 5%;
+    
+}
+#about{
+    padding: 60px 0;
+    color:aliceblue;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    max-width: 100%;
+    border: 3px solid aliceblue;
+    
+    border-radius: 15px;
+
+}
+.about-col-2{
+    flex-basis: 60%;
+    font-size: 20px;
+}
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="imgs/istockphoto-1331186720-612x612-removebg-preview.png" >
+            <div>Everytime Fitness</div>
+            
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+            
+        </div>
+      
+
+    </header>
+    <div class="container">
+        <h1>Join the Best Gym Of Delhi now!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter yor name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter yor age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter yor gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter yor locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Imgs/1000_F_545362519_erT5uqcDn5dhhYmN7QzC1WdrjZXDvf9z.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About us</h1>
+                    <p> At Everytime Fitness Gym, we believe that every journey to fitness is unique, and that's why we're dedicated to providing you with a comprehensive range of services tailored to your individual goals and aspirations. Whether you're a seasoned athlete looking to push your limits, a beginner taking your first steps towards wellness, or anyone in between, our team of experienced trainers and instructors are here to guide and inspire you every step of the way.
+                        Our world-class facilities are designed to create a motivating environment. From cutting-edge workout equipment to versatile group fitness studios, we offer a variety of training options that cater to different preferences and fitness levels.
+                        
+                        
+                    </p>
+    
+</body>
+</html>
